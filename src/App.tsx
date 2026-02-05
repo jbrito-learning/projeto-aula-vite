@@ -1,6 +1,6 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import { Home, About } from "./pages/pages";
+import { Home, About, Blog, Post } from "./pages/pages";
 import Navbar from "./components/layout/Navbar";
 
 function App() {
@@ -10,6 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<Post />} />
       </Routes>
     </>
   );

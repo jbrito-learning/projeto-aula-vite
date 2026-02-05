@@ -1,7 +1,6 @@
 .main-container {
-  min-height: 100vh;
-  min-width: 100%;
-  width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,8 +10,9 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #ffffff;
+  max-width: 100vw;
   padding: 20px 30px;
-  background-color: white;
 
   .navbar-title {
     font-size: 30px;
