@@ -6,3 +6,10 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.navbar {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
