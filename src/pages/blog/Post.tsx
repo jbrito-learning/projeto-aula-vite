@@ -12,7 +12,6 @@ const Post = () => {
             const data = await res.json();
             const foundPost = data.posts.find((p: { id: number }) => String(p.id) === id);
             setPost(foundPost);
-
         };
         loadPost();
     }, [id]);
